@@ -1,9 +1,9 @@
 #define BLYNK_PRINT Serial
 
 // --- BLYNK CREDENTIALS ---
-#define BLYNK_TEMPLATE_ID "TMPL3sLBDj53C"
+#define BLYNK_TEMPLATE_ID " "
 #define BLYNK_TEMPLATE_NAME "SmartStove"
-#define BLYNK_AUTH_TOKEN "4Ifjhxp6QEk2A4q78XSletiEmgcfatRS"
+#define BLYNK_AUTH_TOKEN " "
 
 #include <WiFi.h>
 #include <WiFiClient.h>
@@ -56,8 +56,8 @@ DHT dht(DHT_PIN, DHTTYPE);
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 // --- WIFI CREDENTIALS ---
-char ssid[] = "hi";
-char pass[] = "12345679";
+char ssid[] = " ";
+char pass[] = " ";
 
 // --- SYSTEM STATE VARIABLES ---
 int gasThreshold = 1000;
