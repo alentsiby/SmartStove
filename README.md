@@ -2,6 +2,7 @@
 
 A fully featured, IoT-enabled automated stove controller built with an ESP32. This system automatically manages a gas stove by physically manipulating the knob and igniter, monitoring temperature, checking for gas leaks, and detecting pressure cooker whistles.
 
+
 ![PCB Design](docs/assets/pcb_design.png)
 
 ## Features
